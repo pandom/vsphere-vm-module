@@ -14,6 +14,6 @@ module "vm" {
   template = "go-tfc-agent-small"
 
   hostname = "vm-${count.index}"
-  memory   = 14096
+  memory   = 4096
 
 }
